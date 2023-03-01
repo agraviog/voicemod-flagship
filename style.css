@@ -1,4 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: 'ReplicaTT';
+  src: url('fonts/replicall-light-webfont.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ReplicaTT';
+  src: url('fonts/replicall-regular-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ReplicaTT';
+  src: url('fonts/replicall-bold-webfont.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
 
 html {
   font-size: 100%;
@@ -6,7 +23,7 @@ html {
 
 body {
   background: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'ReplicaTT', sans-serif;
   font-weight: 400;
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
@@ -15,6 +32,7 @@ body {
   min-width: 280px;
 }
 a {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
 }
@@ -40,7 +58,7 @@ img {
 .heading-four-light,
 .heading-four-bold {
   margin: 0 0 1.5rem 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'ReplicaTT', sans-serif;
   line-height: 1.2;
 }
 
@@ -156,6 +174,17 @@ img {
   flex-direction: column;
   gap: 32px;
   align-items: center;
+}
+
+#sound {
+  margin-left: -0.5rem;
+  padding: 0 0.75rem;
+  background: linear-gradient(
+    90deg,
+    #fec6ff 0%,
+    #fcf6a6 58.85%,
+    #b2fdcb 93.75%
+  );
 }
 
 /* Download Button */
