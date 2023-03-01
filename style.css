@@ -95,7 +95,7 @@ img {
   line-height: 1.5;
 }
 
-.container {
+.flagship-container {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -355,10 +355,25 @@ img {
     font-size: 20px;
     font-weight: 700;
   }
+
+  .accordion-item {
+    padding: 1.5rem 2rem;
+  }
 }
 
 @media (max-width: 480px) {
+  .heading-one {
+    font-size: 48px;
+  }
+  .heading-two {
+    font-size: 32px;
+  }
+
   .download-link-content {
     font-size: 16px;
+  }
+
+  .accordion-item {
+    padding: 1.25rem 1.5rem;
   }
 }
